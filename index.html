@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Bella Unhas | Nail Designer</title>
+  <meta name="description" content="Nail designer: alongamento, esmaltação em gel, nail art e muito mais. Agende seu horário pelo WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Bella<span>Unhas</span></a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#agendar" class="btn btn--small">Agendar</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Nail Designer</p>
+          <h1>Unhas lindas, <em>do seu jeito</em></h1>
+          <p class="hero__sub">Alongamento, esmaltação em gel e nail art feitos com carinho, capricho e produtos de qualidade.</p>
+          <div class="hero__actions">
+            <a href="#agendar" class="btn">Agendar horário</a>
+            <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
+          </div>
+          <ul class="hero__stats">
+            <li><strong>+800</strong><span>clientes atendidas</span></li>
+            <li><strong>5 anos</strong><span>de experiência</span></li>
+            <li><strong>4.9 ★</strong><span>avaliação média</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="nail nail--1"></div>
+          <div class="nail nail--2"></div>
+          <div class="nail nail--3"></div>
+          <div class="nail nail--4"></div>
+          <div class="nail nail--5"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">O que fazemos</p>
+          <h2>Nossos serviços</h2>
+          <p>Escolha o serviço ideal e agende em poucos cliques.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon">💅</div>
+            <h3>Esmaltação em gel</h3>
+            <p>Brilho intenso e durabilidade de até 20 dias, sem danificar a unha natural.</p>
+            <div class="card__foot">
+              <span class="price">R$ 70</span>
+              <button class="link-btn" data-service="Esmaltação em gel">Agendar →</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">✨</div>
+            <h3>Alongamento em gel</h3>
+            <p>Unhas longas, naturais e resistentes, no formato que você mais gosta.</p>
+            <div class="card__foot">
+              <span class="price">R$ 180</span>
+              <button class="link-btn" data-service="Alongamento em gel">Agendar →</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🎨</div>
+            <h3>Nail art</h3>
+            <p>Desenhos, francesinhas, pedrarias e decorações exclusivas e personalizadas.</p>
+            <div class="card__foot">
+              <span class="price">a partir de R$ 30</span>
+              <button class="link-btn" data-service="Nail art">Agendar →</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🌸</div>
+            <h3>Manicure + Pedicure</h3>
+            <p>Cuidado completo para mãos e pés, com esmaltação tradicional.</p>
+            <div class="card__foot">
+              <span class="price">R$ 80</span>
+              <button class="link-btn" data-service="Manicure + Pedicure">Agendar →</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🔧</div>
+            <h3>Manutenção</h3>
+            <p>Reposição e reforço do alongamento para manter suas unhas impecáveis.</p>
+            <div class="card__foot">
+              <span class="price">R$ 120</span>
+              <button class="link-btn" data-service="Manutenção de alongamento">Agendar →</button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🧼</div>
+            <h3>Remoção de gel</h3>
+            <p>Remoção segura e cuidadosa, com hidratação para preservar suas unhas.</p>
+            <div class="card__foot">
+              <span class="price">R$ 40</span>
+              <button class="link-btn" data-service="Remoção de gel">Agendar →</button>
+            </div>
+          </article>
+        </div>
+        <p class="note reveal">* Valores de exemplo. Altere conforme a tabela do seu estúdio.</p>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section section--alt" id="galeria">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Portfólio</p>
+          <h2>Trabalhos que amamos</h2>
+          <p>Uma amostra do nosso trabalho. Siga no Instagram para ver mais.</p>
+        </header>
+
+        <div class="gallery">
+          <!-- Para usar fotos reais: troque cada <div class="gallery__item"> por
+               <figure class="gallery__item"><img src="foto.jpg" alt="Descrição"></figure> -->
+          <div class="gallery__item g1 reveal"><span>Francesinha</span></div>
+          <div class="gallery__item g2 reveal"><span>Rosé glitter</span></div>
+          <div class="gallery__item g3 reveal"><span>Nude clássico</span></div>
+          <div class="gallery__item g4 reveal"><span>Vermelho gel</span></div>
+          <div class="gallery__item g5 reveal"><span>Nail art floral</span></div>
+          <div class="gallery__item g6 reveal"><span>Baby boomer</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__art reveal" aria-hidden="true">
+          <div class="about__circle">💖</div>
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow">Sobre mim</p>
+          <h2>Olá, eu sou a Bella!</h2>
+          <p>Sou nail designer há mais de 5 anos e transformo unhas em pequenas obras de arte. Meu estúdio é um espaço acolhedor, pensado para você relaxar enquanto cuida de si.</p>
+          <p>Trabalho com materiais de qualidade, esterilização rigorosa e muita atenção aos detalhes, porque cada cliente merece um resultado único.</p>
+          <ul class="checks">
+            <li>Materiais esterilizados</li>
+            <li>Produtos de alta qualidade</li>
+            <li>Atendimento com hora marcada</li>
+            <li>Ambiente aconchegante</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section section--alt" id="depoimentos">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Depoimentos</p>
+          <h2>Quem já passou por aqui</h2>
+        </header>
+
+        <div class="cards cards--3">
+          <blockquote class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <p>Simplesmente amei! O gel durou mais de 3 semanas e o atendimento é impecável.</p>
+            <cite>— Camila R.</cite>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <p>Melhor alongamento que já fiz. Super cuidadosa e o ambiente é lindo!</p>
+            <cite>— Juliana M.</cite>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <div class="stars">★★★★★</div>
+            <p>A nail art ficou exatamente como eu imaginei. Recomendo de olhos fechados.</p>
+            <cite>— Fernanda S.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDAMENTO -->
+    <section class="section schedule" id="agendar">
+      <div class="container schedule__inner">
+        <div class="schedule__info reveal">
+          <p class="eyebrow">Agendamento</p>
+          <h2>Reserve seu horário</h2>
+          <p>Preencha os dados ao lado e você será redirecionada ao WhatsApp com a mensagem pronta. É só enviar e aguardar a confirmação!</p>
+
+          <ul class="info-list">
+            <li><strong>🕒 Horários</strong><span>Seg a Sex: 09h às 19h<br>Sábado: 09h às 15h</span></li>
+            <li><strong>📍 Endereço</strong><span>Rua das Flores, 123 – Centro</span></li>
+            <li><strong>📸 Instagram</strong><span>@studiobellaunhas</span></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="bookingForm" novalidate>
+          <div class="field">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Maria Silva" autocomplete="name" required>
+            <small class="error" data-for="nome"></small>
+          </div>
+
+          <div class="field">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione um serviço</option>
+              <option>Esmaltação em gel</option>
+              <option>Alongamento em gel</option>
+              <option>Nail art</option>
+              <option>Manicure + Pedicure</option>
+              <option>Manutenção de alongamento</option>
+              <option>Remoção de gel</option>
+            </select>
+            <small class="error" data-for="servico"></small>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="data">Data</label>
+              <input type="date" id="data" name="data" required>
+              <small class="error" data-for="data"></small>
+            </div>
+
+            <div class="field">
+              <label for="horario">Horário</label>
+              <select id="horario" name="horario" required disabled>
+                <option value="">Escolha a data primeiro</option>
+              </select>
+              <small class="error" data-for="horario"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="obs">Observações <span class="optional">(opcional)</span></label>
+            <textarea id="obs" name="obs" rows="3" placeholder="Cor preferida, referência de modelo, alergias..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--whats">
+            <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true" fill="currentColor"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.6L3 29l7.100-1.800a12.800 12.800 0 0 0 5.900 1.500c7 0 12.700-5.600 12.700-12.500S23 3 16 3zm5.900 15.500c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.700 8.700 0 0 1-4.300-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400s-1.200 1.200-1.200 2.800 1.200 3.300 1.400 3.500 2.400 3.700 5.800 5.100c2.200.9 3 1 4.100.8.700-.1 1.900-.8 2.200-1.500s.3-1.400.2-1.500-.3-.2-.6-.4z"/></svg>
+            Agendar pelo WhatsApp
+          </button>
+          <p class="form__hint">Seu horário só é confirmado após a resposta no WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo logo--light">Bella<span>Unhas</span></a>
+      <p>© <span id="year"></span> Studio Bella Unhas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="#" class="whats-float" id="whatsFloat" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" fill="currentColor"><path d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.6L3 29l7.100-1.800a12.800 12.800 0 0 0 5.900 1.500c7 0 12.700-5.600 12.700-12.500S23 3 16 3zm5.900 15.500c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.700 8.700 0 0 1-4.300-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400s-1.200 1.200-1.200 2.800 1.200 3.300 1.400 3.500 2.400 3.700 5.800 5.100c2.200.9 3 1 4.100.8.700-.1 1.900-.8 2.200-1.500s.3-1.400.2-1.500-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
